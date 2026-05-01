@@ -79,12 +79,23 @@
           "target": [
             "TargetMain"
           ]
+        },
+        {
+          "name": "RouteImpressum",
+          "pattern": "impressum",
+          "target": [
+            "TargetImpressum"
+          ]
         }
       ],
       "targets": {
         "TargetMain": {
           "id": "Main",
           "name": "Main"
+        },
+        "TargetImpressum": {
+          "id": "Impressum",
+          "name": "Impressum"
         }
       }
     },

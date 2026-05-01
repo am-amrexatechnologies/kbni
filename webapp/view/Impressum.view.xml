@@ -1,0 +1,6 @@
+<mvc:XMLView xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc" id="Impressum">
+    <m:Text id="idImpressumAdresse" text="Michaelsbucherstraße Nr. 14"></m:Text>
+    <m:Text id="idImpressumEMailAdresse" text="alexdemardari@gmail.com"></m:Text>
+    <m:Text id="idImpressumRechtsForm" text="Privates Projekt"></m:Text>
+    <m:Text id="idImpressumName" text="Razvan Alexandru Mardari"></m:Text>
+</mvc:XMLView>

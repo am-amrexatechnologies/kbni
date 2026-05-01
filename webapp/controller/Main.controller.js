@@ -5,6 +5,11 @@ sap.ui.define([
 
     return Controller.extend("kobeni.controller.Main", {
         onInit() {
+            this.oRouter = this.getOwnerComponent().getRouter();
+        },
+
+        onImpressumPress() {
+            this.oRouter.navTo("RouteImpressum");
         }
     });
 });
