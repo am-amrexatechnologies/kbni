@@ -1,0 +1,29 @@
+<mvc:View xmlns:cards="sap.f.cards" xmlns:f="sap.f" controllerName="kobeni.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <f:DynamicPage id="idMainPage" showFooter="true">
+        <f:title>
+            <f:DynamicPageTitle id="idMainPageTitle">
+                <f:content>
+                    <Title id="idMainPageTitleText" text="KBNI"></Title>
+                </f:content>
+            </f:DynamicPageTitle>
+        </f:title>
+        <f:header></f:header>
+        <f:content>
+            <f:Card id="idMainPageAnimeRankingCard">
+                <f:header>
+                    <cards:Header id="idMainPageAnimeRankingCardHeader" title="Anime Rankings"></cards:Header>
+                </f:header>
+                <f:content>
+                    <Text id="idMainPageAnimeRankingCardDescription" text="Anime Rankings List App"></Text>
+                </f:content>
+            </f:Card>
+        </f:content>
+        <f:footer>
+            <Toolbar id="adsiujfh">
+                <Button id="idFooterBarImpressumButton" text="Impressum" press="onImpressumPress"></Button>
+            </Toolbar>
+        </f:footer>
+    </f:DynamicPage>
+</mvc:View>
