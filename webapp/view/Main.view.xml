@@ -9,16 +9,16 @@
                 </f:content>
             </f:DynamicPageTitle>
         </f:title>
-        <f:header></f:header>
-        <f:content>
-            <f:Card id="idMainPageAnimeRankingCard">
-                <f:header>
-                    <cards:Header id="idMainPageAnimeRankingCardHeader" title="Anime Rankings"></cards:Header>
-                </f:header>
+        <f:header>
+            <f:DynamicPageHeader id="idMainPageHeader">
                 <f:content>
-                    <Text id="idMainPageAnimeRankingCardDescription" text="Anime Rankings List App"></Text>
+                    <Button id="idMainPageHeaderLoginButton" text="login"></Button>
+                    <Button id="idMainPageHeaderRegisterButton" text="registrieren"></Button>
                 </f:content>
-            </f:Card>
+            </f:DynamicPageHeader>
+        </f:header>
+        <f:content>
+            
         </f:content>
         <f:footer>
             <Toolbar id="adsiujfh">
