@@ -9,7 +9,7 @@ sap.ui.define([
         },
 
         onImpressumPress() {
-            this.oRouter.navTo("RouteImpressum");
+            this.oRouter.navTo("RouteImpressum", {});
         }
     });
 });
