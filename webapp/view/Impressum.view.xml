@@ -1,6 +1,19 @@
-<mvc:XMLView xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc" id="Impressum" controller="kobeni.controller.Impressum">
-    <m:Text id="idImpressumAdresse" text="Michaelsbucherstraße Nr. 14"></m:Text>
-    <m:Text id="idImpressumEMailAdresse" text="alexdemardari@gmail.com"></m:Text>
-    <m:Text id="idImpressumRechtsForm" text="Privates Projekt"></m:Text>
-    <m:Text id="idImpressumName" text="Razvan Alexandru Mardari"></m:Text>
+<mvc:XMLView xmlns:form="sap.ui.layout.form" xmlns:layout="sap.ui.layout" xmlns:f="sap.f" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc" id="Impressum" controller="kobeni.controller.Impressum">
+    <f:DynamicPage id="idImpressumPage">
+        <f:title>
+            <f:DynamicPageTitle id="idImpressumPageTitle">
+                <f:heading>
+                    <m:Title id="idImpressumPageTitleTitle" title="Impressum"></m:Title>
+                </f:heading>
+            </f:DynamicPageTitle>
+        </f:title>
+        <f:content>
+            <form:SimpleForm id="idImpressumPageContentForm">
+                <m:Text id="idImpressumAdresse" text="Michaelsbucherstraße Nr. 14"></m:Text>
+                <m:Text id="idImpressumEMailAdresse" text="alexdemardari@gmail.com"></m:Text>
+                <m:Text id="idImpressumRechtsForm" text="Privates Projekt"></m:Text>
+                <m:Text id="idImpressumName" text="Razvan Alexandru Mardari"></m:Text>
+            </form:SimpleForm>
+        </f:content>
+    </f:DynamicPage>
 </mvc:XMLView>
