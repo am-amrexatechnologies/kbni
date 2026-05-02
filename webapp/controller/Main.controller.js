@@ -10,6 +10,7 @@ sap.ui.define([
         onImpressumPress() {
             const oRouter = this.getOwnerComponent().getRouter();
 			oRouter.navTo("impressum");
+            console.log("navto impressum pressed")
         }
     });
 });
