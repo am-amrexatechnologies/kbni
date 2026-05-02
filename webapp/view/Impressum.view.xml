@@ -2,9 +2,9 @@
     <f:DynamicPage id="idImpressumPage">
         <f:title>
             <f:DynamicPageTitle id="idImpressumPageTitle">
-                <f:heading>
+                <f:content>
                     <m:Title id="idImpressumPageTitleTitle" title="Impressum"></m:Title>
-                </f:heading>
+                </f:content>
             </f:DynamicPageTitle>
         </f:title>
         <f:content>
