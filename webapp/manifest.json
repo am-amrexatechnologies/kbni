@@ -94,7 +94,7 @@
           "name": "Main"
         },
         "TargetImpressum": {
-          "id": "Impressum",
+          "id": "impressum",
           "name": "Impressum"
         }
       }
