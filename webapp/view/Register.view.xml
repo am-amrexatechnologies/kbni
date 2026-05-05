@@ -1,0 +1,30 @@
+<mvc:XMLView xmlns:form="sap.ui.layout.form" xmlns:f="sap.f" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc" id="Register">
+    <f:DynamicPage id="idRegisterPage">
+        <f:title>
+            <f:DynamicPageTitle id="idRegisterPageTitle">
+                <f:content>
+                    <m:Title id="idRegisterPageTitleTitle" text="Login"></m:Title>
+                </f:content>
+            </f:DynamicPageTitle>
+        </f:title>
+        <f:content>
+            <form:SimpleForm id="idRegisterPageForm" layout="ResponsiveGridLayout">
+                <form:content>
+                    <m:Label id="idRegisterUsername" text="Username"></m:Label>
+                    <m:Input id="idRegisterUsernameInput"></m:Input>
+                    <m:Label id="idRegisterEmail" text="E-Mail"></m:Label>
+                    <m:Input id="idRegisterEmailInput"></m:Input>
+                    <m:Label id="idRegisterPassword" text="Password"></m:Label>
+                    <m:Input id="idRegisterPasswordInput"></m:Input>
+                    <m:Label id="idRegisterConfirmPassword" text="Confirm Password"></m:Label>
+                    <m:Input id="idRegisterConfirmPasswordInput"></m:Input>
+                    <m:Toolbar id="idRegisterFormActions" design="Auto">
+                        <m:content>
+                            <m:Button id="idRegisterSubmit" text="Register" press="onRegisterPress"></m:Button>
+                        </m:content>
+                    </m:Toolbar>
+                </form:content>
+            </form:SimpleForm>
+        </f:content>
+    </f:DynamicPage>
+</mvc:XMLView>

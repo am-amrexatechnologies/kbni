@@ -1,0 +1,19 @@
+<mvc:XMLView xmlns:form="sap.ui.layout.form" xmlns:f="sap.f" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc" id="Login">
+    <f:DynamicPage id="idLoginPage">
+        <f:title>
+            <f:DynamicPageTitle id="idLoginPageTitle">
+                <f:content>
+                    <m:Title id="idLoginPageTitleTitle" text="Login"></m:Title>
+                </f:content>
+            </f:DynamicPageTitle>
+        </f:title>
+        <f:content>
+            <form:SimpleForm id="idLoginPageForm">
+                <m:Label id="idLoginUsername" text="Username"></m:Label>
+                <m:Input id="idLoginUsernameInput"></m:Input>
+                <m:Label id="idLoginPassword" text="Password"></m:Label>
+                <m:Input id="idLoginPasswordInput"></m:Input>
+            </form:SimpleForm>
+        </f:content>
+    </f:DynamicPage>
+</mvc:XMLView>

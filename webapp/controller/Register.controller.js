@@ -3,8 +3,10 @@ sap.ui.define([
 ], (BaseController) => {
   "use strict";
 
-  return BaseController.extend("kobeni.controller.App", {
+  return BaseController.extend("kobeni.controller.Register", {
       onInit() {
-      }
+      },
+
+      onRouteMatched(oEvent) {}
   });
 });

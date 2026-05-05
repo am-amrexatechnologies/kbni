@@ -12,8 +12,8 @@
         <f:header>
             <f:DynamicPageHeader id="idMainPageHeader">
                 <f:content>
-                    <Button id="idMainPageHeaderLoginButton" text="login"></Button>
-                    <Button id="idMainPageHeaderRegisterButton" text="registrieren"></Button>
+                    <Button id="idMainPageHeaderLoginButton" text="login" press="onLoginPress"></Button>
+                    <Button id="idMainPageHeaderRegisterButton" text="registrieren" press="onRegisterPress"></Button>
                 </f:content>
             </f:DynamicPageHeader>
         </f:header>

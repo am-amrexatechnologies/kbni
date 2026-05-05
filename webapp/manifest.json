@@ -86,6 +86,20 @@
           "target": [
             "TargetImpressum"
           ]
+        },
+        {
+          "name": "RouteLogin",
+          "pattern": "login",
+          "target": [
+            "TargetLogin"
+          ]
+        },
+        {
+          "name": "RouteRegister",
+          "pattern": "register",
+          "target": [
+            "TargetRegister"
+          ]
         }
       ],
       "targets": {
@@ -96,6 +110,14 @@
         "TargetImpressum": {
           "id": "impressum",
           "name": "Impressum"
+        },
+        "TargetLogin": {
+          "id": "login",
+          "name": "Login"
+        },
+        "TargetRegister": {
+          "id": "register",
+          "name": "Register"
         }
       }
     },

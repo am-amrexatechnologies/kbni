@@ -1,5 +1,5 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
+    "./BaseController"
 ], (Controller) => {
     "use strict";
 
@@ -10,6 +10,14 @@ sap.ui.define([
 
         onImpressumPress() {
 			this.oRouter.navTo("RouteImpressum");
+        },
+
+        onLoginPress() {
+            this.oRouter.navTo("RouteLogin");
+        },
+
+        onRegisterPress() {
+            this.oRouter.navTo("RouteRegister");
         }
     });
 });

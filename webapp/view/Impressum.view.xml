@@ -3,7 +3,7 @@
         <f:title>
             <f:DynamicPageTitle id="idImpressumPageTitle">
                 <f:content>
-                    <m:Title id="idImpressumPageTitleTitle" title="Impressum"></m:Title>
+                    <m:Title id="idImpressumPageTitleTitle" text="Impressum"></m:Title>
                 </f:content>
             </f:DynamicPageTitle>
         </f:title>

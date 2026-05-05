@@ -3,8 +3,9 @@ sap.ui.define([
 ], (Controller) => {
     "use strict";
 
-    return Controller.extend("kobeni.controller.Impressum", {
+    return Controller.extend("kobeni.controller.Login", {
         onInit() {
+            this.oRouter = this.getOwnerComponent().getRouter();
         },
 
         onRouteMatched(oEvent) {}
